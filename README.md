@@ -1,7 +1,6 @@
 Guessing Game:
 This program is a game of a random interger and accepts guesses. Player guesses until the number is correct.
 
-
 20 questions :
 This program construct a binary tree where eacch leaf has name of the object and each branch node has yes/no question that distinguishes the object. It grows more intelligent each wrong answer.
 
@@ -10,4 +9,4 @@ MadLibs : This program is use file input/output and strings to create mad libs s
 Hang Man: Reads a dictionary of words to be used during the game and then plays a game with the user.  This is a cheating version of hangman that delays picking a word to keep its options open.  You can change the setting for SHOW_COUNT to see
 how many options are still left on each turn.
 
-Grammar Solver : Prompts a user for the name of a grammar file and then gives the user the opportunity to generate random versions of various elements of the grammar.
+Grammar Solver : Prompts a user for the name of a grammar file that specified as sequence of strings, and each represents the rules for nonterminal symbol. Then gives the user the opportunity to generate random versions of various elements of the grammar.
