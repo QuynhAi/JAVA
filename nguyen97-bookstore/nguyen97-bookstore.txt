@@ -1,0 +1,31 @@
+
+Assignment name: Assignment 2
+TCSS 305: Programming Practicum, Winter 2019
+
+Name: Ai Quynh Nguyen
+UWNetID: 1628088
+Subversion Revision Number: 9
+
+Assignment Overview:
+This assignment allows me to practice writing Java classes to a provided API and using Collections. This assignment also allows me to get familiar with always write test cases. 
+
+Technical Impression:
+In the add method, when the customer changes their mind for different quantity they want to buy, I need to replace it. At first, if both items are equal, I would remove one of them and replace it by the other one. And if not equal, then put the item in the order. However, it wouldn't even go inside the loop. So I added the item outside of the loop. But then I have duplicate of the item. // I print it on the console
+Update: Finally works. If I see that they are equal, I just remove it. After the loop, add the item. 
+
+In my constructor that takes 4 arguments, I called the constructor with 2 arguments by this(myName,myPrice) because I don't want redundancy. I also created boolean for bulkOptionAvailable, PMD says that it should be final. But if I make it final then when I call this(myName,myPrice), the boolean is already set to false. So it would give me an error if I re-set it to true. My solution is to go a constructor helper that check conditions for myName and myPrice.
+
+I was having the error message saying that "Avoid concatenating characters as strings in StringBuffer/StringBuilder.append methods." I went online to look up the problem and how to fix it. Based on the PMD java, it says instead of using the double quotation mark ", I should use the single quotation mark '. I tried it and it gave me compiler error. I got frustrated, and change all the single quotation mark back to double quotation mark. At the PMD error, change that double quotation mark to single and it works.
+
+Unresolved problems in my submission:
+Ignore PMD red error - avoid using equals() to compare against null.
+
+Citations and Collaborations:
+Constructor Chaining : https://www.geeksforgeeks.org/constructor-chaining-java-examples/?fbclid=IwAR0d3vQ40e1rifq8St98Jz4BgnqIxrpJTzRbkzBTpXEeW_tpwwbbD-hutl0
+
+BigDecimal: https://docs.oracle.com/javase/7/docs/api/java/math/BigDecimal.html
+
+Questions:
+None
+
+
